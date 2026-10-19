@@ -1,0 +1,6 @@
+fastapi>=0.110.0
+uvicorn>=0.28.0
+openai>=1.14.0
+pydantic>=2.6.0
+python-multipart>=0.0.9
+fpdf2>=2.7.8

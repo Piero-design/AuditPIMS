@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and temporary files
+.DS_Store
+tmp/
+.codex-lpdp-build/
+*.log
+
+# Environment variables & keys
+.env
+*.key
+*.token
+
+# Large official standard PDFs (>10MB) protected by copyright
+ISO 27701-2025.pdf
+ISO-19011-2026-en.pdf
+ISO-42001-2023-en.pdf
+ViewPDF.pdf
+output/pdf/Calidad*.pdf

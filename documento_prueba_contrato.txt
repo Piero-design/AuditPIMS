@@ -1,0 +1,26 @@
+CONTRATO DE LOCACIÓN DE SERVICIOS DE TELEVENDEDORES Y GESTIÓN DE COBRANZAS
+
+Conste por el presente documento, el Contrato de Locación de Servicios que celebran de una parte:
+- ORGANIZACIÓN EJEMPLO S.A.C., con RUC N° 20601234567, con domicilio en Calle Mercaderes 120, Arequipa, debidamente representada por su Gerente General (en adelante, "EL CLIENTE"); y de la otra parte:
+- TELECALL PERÚ S.A., con RUC N° 20559876543, con domicilio en Av. Ejército 405, Arequipa (en adelante, "EL PROVEEDOR").
+
+CLÁUSULA PRIMERA: OBJETO DEL CONTRATO
+EL PROVEEDOR prestará servicios de contact center, llamadas telefónicas de cobranza y prospección de matrículas para los cursos virtuales dictados por EL CLIENTE.
+
+CLÁUSULA SEGUNDA: ACCESO A BASE DE DATOS
+Para el cumplimiento del servicio, EL CLIENTE entregará semanalmente a EL PROVEEDOR una base de datos en formato Excel conteniendo: Nombre completo, DNI, teléfono celular, correo electrónico, dirección y estado de cuenta de los alumnos y postulantes.
+
+CLÁUSULA TERCERA: CONFIDENCIALIDAD COMERCIAL
+Las partes se comprometen a guardar estricta reserva de las estrategias comerciales, tarifas y comisiones derivadas del presente contrato.
+
+CLÁUSULA CUARTA: PLAZO Y VIGENCIA
+El presente contrato tendrá una vigencia de doce (12) meses contados a partir del 1 de febrero de 2026.
+
+CLÁUSULA QUINTA: RESOLUCIÓN
+Cualquiera de las partes podrá resolver el contrato con aviso previo de 15 días calendario.
+
+En señal de conformidad, las partes suscriben el presente contrato en dos ejemplares del mismo tenor:
+
+_____________________________                      _____________________________
+ORGANIZACIÓN EJEMPLO S.A.C.                         TELECALL PERÚ S.A.
+(Línea de firma en blanco)                         (Línea de firma en blanco)
