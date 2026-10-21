@@ -1270,14 +1270,20 @@ print("Hash SHA-256:", dictamen["sha256"])</pre>
     }
 
     function actualizarBadgesCriterios(markdown) {
+      const lineas = (markdown || "").split('\\n');
       const checkCriterio = (criterio) => {
-        const regex = new RegExp(`\\*\\*${criterio}\\*\\*\\s*\\|\\s*([^\\|]+)`, 'i');
-        const match = markdown.match(regex);
-        if (match) {
-          const val = match[1].trim().toLowerCase();
-          if (val.includes('sí') || val.includes('si') || val.includes('cumple')) return { text: 'SÍ', color: 'text-emerald-700' };
-          if (val.includes('no')) return { text: 'NO', color: 'text-rose-700' };
-          if (val.includes('parcial')) return { text: 'PARCIAL', color: 'text-amber-700' };
+        const critLower = criterio.toLowerCase();
+        for (let l of lineas) {
+          const lLower = l.toLowerCase();
+          if (lLower.includes(critLower) && l.includes('|')) {
+            const partes = l.split('|');
+            if (partes.length >= 3) {
+              const val = partes[2].trim().toLowerCase();
+              if (val.includes('sí') || val.includes('si') || val.includes('cumple')) return { text: 'SÍ', color: 'text-emerald-700' };
+              if (val.includes('no')) return { text: 'NO', color: 'text-rose-700' };
+              if (val.includes('parcial')) return { text: 'PARCIAL', color: 'text-amber-700' };
+            }
+          }
         }
         return { text: 'N/A', color: 'text-stone-400' };
       };
