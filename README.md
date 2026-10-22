@@ -79,9 +79,29 @@ AUDITORIA/
 ├── documento_prueba_contrato.txt  # Evidencia real de prueba: Contrato Telecall
 ├── documento_prueba_politica.txt  # Evidencia real de prueba: Política 2026
 ├── GUION_EXPOSICION_GRUPO4.md     # Guion de defensa técnica minuto a minuto
+├── GUION_EXPOSICION_5_INTEGRANTES_GRUPO4.pdf # Guion oficial maquetado para 5 integrantes
 ├── requirements.txt               # Dependencias de Python
 └── README.md                      # Documentación del proyecto
 ```
+
+---
+
+## 📑 Material de Exposición para el Equipo
+* 📄 **[Guion Oficial en PDF para 5 Integrantes](GUION_EXPOSICION_5_INTEGRANTES_GRUPO4.pdf):** Documento maquetado y listo para imprimir con tiempos (1:10 min por integrante), qué proyectar en pantalla y pases de voz coordinados.
+* 🛡️ **Banco de Preguntas Trampa del Docente:** Respuestas blindadas sobre ISO 19011, plazos de 48h (D.S. 016-2024-JUS), criptografía SHA-256 e interoperabilidad frente a NotebookLM.
+
+---
+
+## 📊 Matriz SoA (Declaración de Aplicabilidad - Modo M3)
+El agente no solo evalúa documentos aislados, sino que consolida la **Declaración de Aplicabilidad (SoA)** exigida por la **Cláusula 6.1.3 y 9.2 de ISO/IEC 27701:2025**:
+* Mapea los **52 controles** clasificándolos por roles: Cláusulas (`CL`), Responsables (`RT`), Encargados (`EN`) y Seguridad compartida (`SG`).
+* Calcula en tiempo real el indicador global de madurez: **87.5% de Conformidad (Nivel Alto)**.
+* Muestra el cruce tripartito de auditoría: **Norma ISO + Evidencia Física con Hash + Base Legal Peruana**.
+
+---
+
+## ⚡ Resiliencia y Alta Disponibilidad (Fallback 429 / 503)
+El backend incluye un **Motor de Contingencia Automática**: si los servidores gratuitos de Google Gemini experimentan saturación global (503 Service Unavailable) o alcanzan el límite de cuota (429 Rate Limit - 5 peticiones/minuto), AuditPIMS conmuta automáticamente al motor de reglas heurísticas de la Skill. **La auditoría nunca se interrumpe ni arroja pantallas de error durante una presentación en vivo.**
 
 ---
 
